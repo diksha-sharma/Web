@@ -1,0 +1,288 @@
+img
+{
+	
+	width: 100%;
+	height: 1000px;
+	
+}
+
+body
+{
+
+	/* background-image: url("../img/background.jpg"); */
+	background-color: #ffe766;
+	color: #800000;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 50px;
+	
+}
+
+.toplinks14
+{
+	margin-left: 5px;
+	width: 32px;
+	height: 27px;
+	border: 2px;	
+	
+}
+
+#home
+{
+	
+	width: 32px;
+	height: 32px;
+}
+
+#accessories
+{
+	
+	width: 32px;
+	height: 32px;
+
+}
+
+.items
+{
+	
+	width: 230px;
+	height: 306px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-style: groove;
+	
+}
+
+.bag
+{
+
+	float: right;
+	margin-right: 20px;
+	color: #800000;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#options
+{
+	padding-left: 800px;
+	
+}
+
+/* #options
+{
+	
+	color: #FF7F50;
+	padding-left: 800px;
+	
+}
+
+select
+{
+	
+	background-color:#FF7F50;
+	
+} */
+
+#form_data
+{
+	
+	visibility: hidden;
+	
+}
+
+.item
+{
+	
+	margin-left: 50px;
+	
+}
+
+.details
+{
+	
+	float: left;
+	margin-left: 180px;
+	width: 450px;
+	
+}
+
+.sizedetails
+{
+	
+	color: black;
+	width: 120px;
+	
+}
+
+#addtobag
+{
+	width: 81px;
+	height: 17px;
+	margin-bottom: 10px;
+	
+}
+
+#menulinks1
+{
+
+	left: 210px;
+	font-size: 20px;
+	margin-left: 300px;
+	margin-right: 10px;
+	
+}
+
+#menulinks2
+{
+
+	left: 210px;
+	font-size: 20px;
+	margin-left: 300px;
+	
+}
+
+#menulinks3
+{
+
+	left: 210px;
+	font-size: 20px;
+	margin-left: 300px;
+	
+}
+
+a:visited
+{
+	
+	color: #800000;
+	
+}
+
+a:hover
+{
+	
+	color: #800000;
+	
+}
+
+a:link
+{
+	
+	color: #800000;
+}
+
+a:active
+{
+	
+	color: #800000;
+	
+}
+
+/* .menulinks
+{
+	
+	padding-left: 130px;
+	padding-right: 120px;
+	float: center;
+	
+} */
+
+/* .toplinks12
+{
+
+	padding-left: 345px;
+	
+}
+
+.toplinks13
+{
+
+	padding-left: 50px;
+	
+}
+ */
+
+#menulinks1
+{
+
+	left: 210px;
+	font-size: 20px;
+	margin-left: 300px;
+	margin-right: 10px;
+	
+}
+
+#menulinks2
+{
+
+	left: 210px;
+	font-size: 20px;
+	margin-left: 300px;
+	
+}
+
+#menulinks3
+{
+
+	left: 210px;
+	font-size: 20px;
+	margin-left: 300px;
+	
+}
+
+#menulinks11
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	margin-right: 10px;
+	
+}
+
+#menulinks21
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	
+}
+
+#menulinks41
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	
+}
+
+#menulinks31
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

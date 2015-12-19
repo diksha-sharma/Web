@@ -1,0 +1,274 @@
+body
+{
+
+	/* background-image: url("../img/background.jpg"); */
+	background-color: #ffe766;
+	color: #800000;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+#itemtext
+{
+	
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+#ContinueShopping
+{
+	
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
+#Checkout
+{
+	
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
+.toplinks14
+{
+	margin-left: 5px;
+	width: 32px;
+	height: 27px;
+	border: 2px;	
+	
+}
+
+.items
+{
+	
+	width: 200px;
+	height: 200px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-style: inset;
+	
+}
+
+.itemsdresses
+{
+	
+	width: 230px;
+	height: 306px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-style: inset;
+	
+}
+
+.bag
+{
+
+	float: right;
+	margin-right: 20px;
+	color: #800000;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* #options
+{
+	
+	color: #FF7F50;
+	padding-left: 800px;
+	
+}
+
+select
+{
+	
+	background-color:#FF7F50;
+	
+} */
+
+.item
+{
+	
+	margin-left: 50px;
+	
+}
+
+.details
+{
+	
+	margin-left: 150px;
+	width: 300px;
+	
+}
+
+.detailsdresses
+{
+
+	margin-left: 150px;
+	width: 300px;
+	
+}
+
+#addtobag
+{
+	width: 81px;
+	height: 17px;
+	margin-bottom: 5px;
+	
+}
+
+#menulinks1
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	margin-right: 10px;
+	
+}
+
+#menulinks2
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	
+}
+
+#menulinks3
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	
+}
+
+#menulinks4
+{
+
+	left: 150px;
+	font-size: 20px;
+	margin-left: 200px;
+	
+}
+
+a:visited
+{
+	
+	color: #800000;
+	
+}
+
+a:hover
+{
+	
+	color: #800000;
+	
+}
+
+a:link
+{
+	
+	color: #800000;
+}
+
+a:active
+{
+	
+	color: #800000;
+	
+}
+
+/* .menulinks
+{
+	
+	padding-left: 130px;
+	padding-right: 120px;
+	float: center;
+	
+} */
+
+/* .toplinks12
+{
+
+	padding-left: 345px;
+	
+}
+
+.toplinks13
+{
+
+	padding-left: 50px;
+	
+}
+ */
+
+#menulinks11
+{
+
+	left: 100px;
+	font-size: 20px;
+	margin-left: 150px;
+	margin-right: 10px;
+	
+}
+
+#menulinks21
+{
+
+	left: 100px;
+	font-size: 20px;
+	margin-left: 150px;
+	
+}
+
+#menulinks51
+{
+
+	left: 100px;
+	font-size: 20px;
+	margin-left: 150px;
+	
+}
+
+#menulinks41
+{
+
+	left: 100px;
+	font-size: 20px;
+	margin-left: 150px;
+	
+}
+
+#menulinks31
+{
+
+	left: 100px;
+	font-size: 20px;
+	margin-left: 150px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

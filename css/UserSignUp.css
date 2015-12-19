@@ -1,0 +1,117 @@
+body
+{
+
+	background-image: url("../img/UserSignUpBkgrnd.jpg");
+	color: #000000;
+}
+
+#PageHeading
+{
+	
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:32px;
+	font-weight: bold;
+	padding-left: 150px;
+	padding-top: 100px;
+	text-decoration: underline;
+	
+}
+
+.label
+{
+	
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	margin-left: 200px;
+	margin-top: 20px;
+	font-weight: bold;
+	
+	
+}
+
+#UsernameLabel
+{
+	
+	margin-top: 45px;
+	
+}
+
+#Username
+{
+
+	border-radius: 25px;
+	width: 300px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 200px;
+	
+}
+
+#Email
+{
+
+	border-radius: 25px;
+	width: 500px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 200px;
+	
+}
+
+.error
+{
+	
+	color: #FF0000;
+	font-size: 12px;
+	
+}
+
+#request
+{
+	
+	color:#FF0000;
+	font-size: 10px;
+	margin-top: 20px;
+	margin-left: 200px;
+	
+}
+
+#Password
+{
+
+	border-radius: 25px;
+	width: 200px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 200px;
+	
+}
+
+#RePassword
+{
+
+	border-radius: 25px;
+	width: 200px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 200px;
+	
+}
+
+#submitSignup
+{
+
+	margin-top: 25px;
+	margin-left: 200px;
+	border-radius: 25px;
+	
+}

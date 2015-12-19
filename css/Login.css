@@ -1,0 +1,113 @@
+body
+{
+
+	background-image: url("../img/Login.jpg");
+	color: #000000;
+}
+
+#PageHeading
+{
+	
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:32px;
+	font-weight: bold;
+	padding-left: 600px;
+	padding-top: 100px;
+	text-decoration: underline;
+	
+}
+
+.label
+{
+	
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	margin-left: 600px;
+	margin-top: 20px;
+	font-weight: bold;
+	
+	
+}
+
+#Email
+{
+
+	border-radius: 25px;
+	width: 500px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 600px;
+	
+}
+
+.error
+{
+	
+	color: #000000;
+	font-size: 12px;
+	
+}
+
+p
+{
+
+	margin-top: 5px;
+	color:#000000;
+	font-size: 12px;
+	margin-left: 600px;
+	font-family:Georgia, 'Times New Roman', Times, serif;	
+	
+}
+
+#Password
+{
+
+	border-radius: 25px;
+	width: 200px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 600px;
+	
+}
+
+#submitSignup
+{
+
+	margin-top: 25px;
+	margin-left: 600px;
+	border-radius: 25px;
+	
+}
+
+a:visited
+{
+	
+	color: #000000;
+	
+}
+
+a:hover
+{
+	
+	color: #000000;
+	
+}
+
+a:link
+{
+	
+	color: #000000;
+	
+}
+
+a:active
+{
+	
+	color: #000000;
+	
+}

@@ -1,0 +1,137 @@
+#adminaction
+{
+	
+	margin-left: 200px;
+
+}
+
+body
+{
+
+	background-image: url("../img/Login.jpg");
+	color: #000000;
+}
+
+#PageHeading
+{
+	
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:32px;
+	font-weight: bold;
+	padding-left: 200px;
+	padding-top: 100px;
+	text-decoration: underline;
+	
+}
+
+#Page
+{
+	
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:15px;
+	padding-left: 300px;
+	padding-top: 10px;
+	
+}
+
+.label
+{
+	
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	margin-left: 200px;
+	margin-top: 20px;
+	font-weight: bold;
+	
+	
+}
+
+#Email
+{
+
+	border-radius: 25px;
+	width: 500px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 200px;
+	
+}
+
+.error
+{
+	
+	color: #FF0000;
+	font-size: 12px;
+	
+}
+
+p
+{
+
+	margin-top: 5px;
+	color:#000000;
+	font-size: 12px;
+	margin-left: 200px;
+	font-family:Georgia, 'Times New Roman', Times, serif;	
+	
+}
+
+#Password
+{
+
+	border-radius: 25px;
+	width: 200px;
+	margin-top: 5px;
+	color:#000000;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-left: 200px;
+	
+}
+
+#submitSignup
+{
+
+	margin-top: 25px;
+	margin-left: 200px;
+	border-radius: 25px;
+	
+}
+
+#home
+{
+	
+	margin-left: 200px;
+}
+
+a:visited
+{
+	
+	color: #000000;
+	
+}
+
+a:hover
+{
+	
+	color: #000000;
+	
+}
+
+a:link
+{
+	
+	color: #000000;
+	
+}
+
+a:active
+{
+	
+	color: #000000;
+	
+}
