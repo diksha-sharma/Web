@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="openElement (1.50)" />
+<title>Add New Item</title>
+<link id="openElement" rel="stylesheet" type="text/css" href="WEFiles/Css/v02/openElement.css?v=50491101600" />
+<link id="siteFonts" rel="stylesheet" type="text/css" href="Files/Fonts/Fonts.css?v=50491101600" />
+<link id="OETemplate1" rel="stylesheet" type="text/css" href="Templates/Base_Scripts.css?v=50491101600" />
+<link id="OETemplate2" rel="stylesheet" type="text/css" href="Templates/Base_MenuRetractable.css?v=50491101600" />
+<link id="OEBase" rel="stylesheet" type="text/css" href="AddNewItem.css?v=50491101600" />
+<link rel="stylesheet" type="text/css" href="WEFiles/Css/opentip.css?v=50491101600" />
+<!--[if lte IE 7]> 
+<link rel="stylesheet" type="text/css" href="WEFiles/Css/ie7.css?v=50491101600" />
+<![endif]-->
+<script type="text/javascript">
+var WEInfoPage = {"PHPVersion":"phpOK","OEVersion":"1-50-4","PagePath":"AddNewItem","Culture":"DEFAULT","LanguageCode":"EN-US","RelativePath":"","RenderMode":"Export","PageAssociatePath":"AddNewItem","EditorTexts":null}
+</script>
+<script type="text/javascript" src="WEFiles/Client/jQuery/1.10.2.js?v=50491101600"></script>
+<script type="text/javascript" src="WEFiles/Client/jQuery/migrate.js?v=50491101600"></script>
+<script type="text/javascript" src="WEFiles/Client/Common/oe.min.js?v=50491101600"></script>
+<script type="text/javascript" src="AddNewItem(var).js?v=50491101600"></script>
+<script type="text/javascript" src="WEFiles/Client/jQuery/Plugins/jquery.form.js?v=50491101600"></script>
+<script type="text/javascript" src="WEFiles/Client/opentip-jquery.min.js?v=50491101600"></script>
+<script type="text/javascript" src="WEFiles/Client/WESendForm-v29.js?v=50491101600"></script>
+<script type="text/javascript">
+var WEEdValidators = {"WE24113639fa":[{"MsgError":"Price cannot be blank. Enter a valid price.","Expression":".+"}]}
+</script>
+<style id="OEScriptManager" type="text/css">
+.responsiveSection,.respSectContent{position:relative!important;left:auto!important;top:auto!important}
+.responsiveSection{height:auto!important;display:block!important;margin-left:auto;margin-right:auto}
+.heightAuto{height:auto!important}
+.width100{width:100%!important}
+.devNotice{display:none}
+.topMainContainer{background:none!important;position:fixed!important;top:0;left:0!important;width:100%!important;height:0!important;z-index:10000!important}
+.autoMenu{width:100%!important;left:0!important;display:none}
+.navigArrow,.navigArrow2{position:fixed!important;z-index:100000!important}
+.navigArrow2.naUp{top:80px!important}
+
+</style>
+<script type="text/javascript">
+$(function(){WECB_Cent01_General.Init();WECB_Cent01_TopContainer.Init()});var WECB_Cent01_General={Init:function(){this.fixIFramOE();this.findElements();this.fixAndRedimension()},_IEVers:function(){var e=navigator.userAgent.toLowerCase();return e.indexOf("msie")!=-1?parseInt(e.split("msie")[1]):false},fixIFramOE:function(){var e=$("iframe").filter(function(){var e=$(this),t=e.attr("src");return t&&t.indexOf("headerModels.htm")>0});if(e.length){if(e.position().top===0&&$(".panelTopSub").length){$("<div>").css("height",parseInt($(".panelTopSub").height())+"px").insertBefore(e)}}},findElements:function(){this.$allSections=$(".responsiveSection");this.InitOk=true},fixAndRedimension:function(){$(".height_minus8").each(function(){$(this).height(parseInt($(this).height())-8)});$(".top_minus8").each(function(){$(this).css("top",parseInt($(this).css("top"))-8+"px")});$(".top_plus40").each(function(){$(this).css("top",parseInt($(this).css("top"))+40+"px")});$(".leftAuto").each(function(){$(this).css("left","auto")});this.anchorMinY=1e6;this.anchorMaxY=-100;this.$anchorFirst=null;this.$anchorLast=null;var e=0;this.$anchors=$("a").filter(function(){var t=$(this);var n=t.attr("href"),r=t.attr("id"),i=t.attr("name");if(!n&&r&&r===i){var s=t.offset().top;if(s<WECB_Cent01_General.anchorMinY){WECB_Cent01_General.anchorMinY=s;WECB_Cent01_General.$anchorFirst=t}if(s>WECB_Cent01_General.anchorMaxY){WECB_Cent01_General.anchorMaxY=s;WECB_Cent01_General.$anchorLast=t}e++;if(i>="a1"&&(i<="a99"||i==="ax")){t.attr("id","a"+e).attr("name","a"+e)}return true}else return false});var t=this._IEVers();if(t&&t<=9){$(".textShadowIE").find(".ContentBox").css("filter","progid:DXImageTransform.Microsoft.Shadow(Color=#000000,Direction=135,Strength=2)")}},updateAnchorsMinMaxY:function(){if(this.$anchorFirst!==null){this.anchorMinY=this.$anchorFirst.offset().top;this.anchorMaxY=this.$anchorLast.offset().top}},resizeSectionContainers:function(){var e=this.displayHeight;this.$allSections.each(function(){var t=this;if(!t.sub){t.sub=$(t).find(".respSectContent");t.sub.margin1=parseInt(t.sub.css("margin-top"));t.sub.margin2=parseInt(t.sub.css("margin-bottom"))}if(!t.sub.length)return true;var n=parseInt(t.sub.height());var r=(e-n)/2|0;t.sub.css({"margin-top":(r>t.sub.margin1?r:t.sub.margin1)+"px","margin-bottom":(r>t.sub.margin2?r:t.sub.margin2)+"px"})})},smoothScrollTo:function(e){$("html, body").animate({scrollTop:e},500)},changeVisibility:function(e,t,n){if(t!=n){e.toggle(n)}return n}};var WECB_Cent01_TopContainer={Init:function(){this.findElements();this.fixAndRedimension();this.topMenuInit();this.eventHandlers();this.buttons()},findElements:function(){this.$panelTopMain=$(".topMainContainer");this.$panelTopSub=$(".panelTopSub");this.$topMenuSubContainer=$(".topMenuSub");this.$topMenuLinks=$(".topMenuLink");this.$btRetract=$(".btRetract");this.$logoBig=$(".logoBig");this.$logoSmall=$(".logoSmall");this.$miniMenuButton=$(".miniMenuButton");this.$navArrowUp=$(".navigArrow.naUp");this.$navArrowDown=$(".navigArrow.naDown");this.$navArrowUpCent=$(".navigArrow2.naUp");this.$navArrowDownCent=$(".navigArrow2.naDown");this.navArrowUpVisible=false;this.navArrowDownVisible=false;this.navArrowUpCentVisible=false;this.navArrowDownCentVisible=false;this.$autoMenu=$(".autoMenu");this.autoMenuVisible=false;this.autoMenuHeight=0;this.$allSections=WECB_Cent01_General.$allSections;this.alwaysMinimizeMenu=this.$panelTopSub.hasClass("topMinimize");this.topMenuAlignRight=this.$topMenuSubContainer.hasClass("modeAlignRight");this.InitOk=true},fixAndRedimension:function(){var e=!!this.$btRetract.length;this.panelTopSubHeight=parseInt(this.$panelTopSub.height());this.retractButtonY=e?parseInt(this.$btRetract.css("top")):this.panelTopSubHeight;this.topMenuWidth=parseInt(this.$topMenuSubContainer.width());this.logoSmallWidth=this.$logoSmall.length?parseInt(this.$logoSmall.offset().left)+parseInt(this.$logoSmall.width()):0;this.miniMenuButton_origX=parseInt(this.$miniMenuButton.css("left"));this.topMenuY=this.$topMenuSubContainer.length?this.$topMenuSubContainer.position().top:0;this.panelTopMain_Minimized=this.alwaysMinimizeMenu;if(this.alwaysMinimizeMenu){this.retractContainer(true,false,true)}},topMenuInit:function(){this.$autoMenu.find(".BaseDiv").attr("onclick","");var e=this.$autoMenu.find(".BaseDiv.OEWELink").children("div");if(e.length===1){var t=e.attr("id"),n=0;this.$topMenuLinks.find("a").each(function(){n+=1;var t=$(this).attr("href"),r=$(this).html();var i=e.clone();i.css("white-space","nowrap").find("a").attr("href",t).html(r);i.appendTo(e.parent());i.hover(function(){$(this).addClass("OE_Over")},function(){$(this).removeClass("OE_Over")})});e.remove()}this.autoMenuHeight=this.$autoMenu.height()},eventHandlers:function(){$(window).bind("load resize",function(){WECB_Cent01_TopContainer.onResizeWindow()}).trigger("resize");this.smallLogoVisibility();this.onScrollWindow();$(window).scroll(function(){WECB_Cent01_TopContainer.onScrollWindow()});$("a").click(function(){if(WECB_Cent01_TopContainer.autoMenuVisible){WECB_Cent01_TopContainer.openAutoMenu(false)}var e=$(this).attr("href");if(e&&e.indexOf("#")===0&&e.length>=2&&$(e).length){WECB_Cent01_General.smoothScrollTo($(e).offset().top);return false}})},buttons:function(){if(this.$btRetract.length){this.$btRetract.find("a").attr("href","").css("display","none");this.$btRetract.click(function(){if(WECB_Cent01_TopContainer.autoMenuVisible)WECB_Cent01_TopContainer.openAutoMenu(false);else WECB_Cent01_TopContainer.retractContainer(!WECB_Cent01_TopContainer.panelTopMain_Minimized)})}this.$miniMenuButton.click(function(){if(!WECB_Cent01_TopContainer.autoMenuVisible)WECB_Cent01_TopContainer.openAutoMenu(true);return false});$(".closeMenu").click(function(){if(WECB_Cent01_TopContainer.autoMenuVisible)WECB_Cent01_TopContainer.openAutoMenu(false);return false});$(".navigArrow, .navigArrow2").click(function(){var e=parseInt($(document).scrollTop());var t=$(this).hasClass("naUp");var n=e;WECB_Cent01_General.$anchors.each(function(){var r=$(this).offset().top;if(!t){if(r>e+40&&(n===e||n>r)){n=r}}else{if(r<e&&(n===e||n<r)){n=r}}});if(n!=e)WECB_Cent01_General.smoothScrollTo(n)})},openAutoMenu:function(e){var t=this.$autoMenu;var n=this.$panelTopMain;if(e!==true){t.hide(500);this.autoMenuVisible=false}else{t.show(500);this.autoMenuVisible=true}this.retractContainer();this.menuModeControl()},retractContainer:function(e,t,n){if(e===undefined)e=this.panelTopMain_Minimized;if(this.alwaysMinimizeMenu)e=true;if(t===undefined)t=this.autoMenuVisible;var r=this.$panelTopMain;var i=e?-this.topMenuY:0;var s=parseInt(r.css("top"));if(!this.alwaysMinimizeMenu){var o=e&&!t?"center bottom":"center top";this.$btRetract.css("background-position",o)}if(!t){if(s>0){r.stop().css("top",0)}}else{var u=this.$autoMenu;var a=this.autoMenuHeight?this.autoMenuHeight:parseInt(u.height());var f=this.retractButtonY-a;u.css("top",f+"px");i=-f}this.panelTopMain_Minimized=e;r.stop().animate({top:i},n?0:500,function(){WECB_Cent01_TopContainer.smallLogoVisibility()});if(!e)this.smallLogoVisibility()},smallLogoVisibility:function(){if(!this.InitOk)return;this.$logoSmall.toggle(this.panelTopMain_Minimized);this.$logoBig.toggle(!this.panelTopMain_Minimized&&!this.autoMenuVisible);this.menuModeControl()},menuModeControl:function(){if(this.autoMenuVisible){this.$topMenuSubContainer.hide();this.$miniMenuButton.hide();return}var e=parseInt(this.$panelTopMain.width());if(this.panelTopMain_Minimized)e-=this.logoSmallWidth*(this.topMenuAlignRight?1:2);var t=e<this.topMenuWidth+8;if(t){this.$topMenuSubContainer.hide();this.$miniMenuButton.show()}else{this.$topMenuSubContainer.show();this.$miniMenuButton.hide()}},onScrollWindow:function(){if(!this.InitOk)return;var e=parseInt($(document).scrollTop());var t=e>0;var n=this.panelTopMain_Minimized;if(t!==n){this.retractContainer(!n)}var r=e-40<WECB_Cent01_General.anchorMinY||WECB_Cent01_General.anchorMaxY<0;var i=e-80+WECB_Cent01_General.displayHeight>WECB_Cent01_General.anchorMaxY||WECB_Cent01_General.anchorMaxY<0;this.navArrowUpCentVisible=WECB_Cent01_General.changeVisibility(this.$navArrowUpCent,this.navArrowUpCentVisible,!r&&!this.disableCenterArrows);this.navArrowUpVisible=WECB_Cent01_General.changeVisibility(this.$navArrowUp,this.navArrowUpVisible,!r);this.navArrowDownCentVisible=WECB_Cent01_General.changeVisibility(this.$navArrowDownCent,this.navArrowDownCentVisible,!i&&!this.disableCenterArrows);this.navArrowDownVisible=WECB_Cent01_General.changeVisibility(this.$navArrowDown,this.navArrowDownVisible,!i)},onResizeWindow:function(){WECB_Cent01_General.displayHeight=$(window).height();if(!this.InitOk)return;this.disableCenterArrows=WECB_Cent01_General.displayHeight<640;this.menuModeControl();var e=parseInt($(document).scrollTop());var t=$(document).height();WECB_Cent01_General.resizeSectionContainers();var n=parseInt($(document).scrollTop());if(n==e){var r=$(document).height();if(t&&r&&r!=t){var i=r/t;n=parseInt(n+n/r*(r-t)*40)}}WECB_Cent01_General.updateAnchorsMinMaxY();this.onScrollWindow()}}; 
+
+</script>
+
+</head>
+<body class="" data-gl="{&quot;KeywordsHomeNotInherits&quot;:false}">
+	<form id="XForm" method="post" action="#"></form>
+	<div id="XBody" class="BaseDiv RWidth OEPageXbody OESK_XBody_Default" style="z-index:2000">
+		<div class="OESZ OESZ_DivContent OESZG_XBody ">
+			<div class="OESZ OESZ_XBodyContent OESZG_XBody  OECT OECT_Content OECTAbs">
+				<div id="WEf0a32b4d5c" class="BaseDiv RBoth OEWECadre OESK_WECadre_Default" style="z-index:1001">
+					<div class="OESZ OESZ_DivContent OESZG_WEf0a32b4d5c ">
+						<div class="OESZ OESZ_Top OESZG_WEf0a32b4d5c "></div><div class="OESZ OESZ_Content OESZG_WEf0a32b4d5c "></div><div class="OESZ OESZ_Bottom OESZG_WEf0a32b4d5c "></div></div>
+				</div>
+				<div id="WE05b1f7980b" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo OECenterAH navigArrow2 naDown" style="z-index:1005">
+					<div class="OESZ OESZ_DivContent OESZG_WE05b1f7980b ">
+						<a class="OESZ OESZ_Link OESZG_WE05b1f7980b ContentBox"><br /></a></div>
+				</div>
+				<div id="WE587e579642" class="BaseDiv RNone OEWELink OESK_WELink_Default OEGo  navigArrow naDown" style="z-index:1003">
+					<div class="OESZ OESZ_DivContent OESZG_WE587e579642 ">
+						<a class="OESZ OESZ_Link OESZG_WE587e579642 ContentBox"><br /></a></div>
+				</div>
+				<div id="WEc59b38a324" class="BaseDiv RNone OEWELink OESK_WELink_Default OEGo  navigArrow naUp" style="z-index:1004">
+					<div class="OESZ OESZ_DivContent OESZG_WEc59b38a324 ">
+						<a class="OESZ OESZ_Link OESZG_WEc59b38a324 ContentBox"><br /></a></div>
+				</div>
+				<div id="WE97d1195ad1" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  topMainContainer" style="z-index:1002">
+					<div class="OESZ OESZ_DivContent OESZG_WE97d1195ad1 ">
+						<div class="OECT OECT_Content OECTAbs OEDynTag0" style="overflow:visible">
+						<div id="WE96de94ebe7" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAH panelTopSub" style="z-index:1001">
+							<div class="OESZ OESZ_DivContent OESZG_WE96de94ebe7 ">
+								<div class="OECT OECT_Content OECTAbs OEDynTag0" style="overflow:visible">
+								<div id="WEb0cf3289bb" class="BaseDiv RWidth OEWEPanel OESK_WEPanel_Default  autoMenu" style="z-index:1005">
+									<div class="OESZ OESZ_DivContent OESZG_WEb0cf3289bb ">
+										<div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:visible">
+										<div class="OERelLine OEHAlignL OEVAlignB"><div id="WE2e3476a311" class="BaseDiv RNone OEWELink OESK_WELink_Default  width100" style="z-index:1001" onclick="return OE.Navigate.open(event,'(__AutoMenuURL__)',1)">
+											<div class="OESZ OESZ_DivContent OESZG_WE2e3476a311 OEGo ">
+												<a class="OESZ OESZ_Link OESZG_WE2e3476a311 ContentBox" href="(__AutoMenuURL__)">(AutoMenu)</a></div>
+										</div></div></div></div>
+								</div>
+								<div id="WE1edac0ffaf" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAH logoBig" style="z-index:1004">
+									<div class="OESZ OESZ_DivContent OESZG_WE1edac0ffaf ">
+										<div class="OECT OECT_Content OECTAbs OEDynTag0">
+										<div id="WE95288c67bc" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default OECenterAH" style="z-index:1001">
+											<div class="OESZ OESZ_DivContent OESZG_WE95288c67bc ">
+												<span class="OESZ OESZ_Text OESZG_WE95288c67bc ContentBox"><span style="font-size:60px;"><b>Shraddha Jain Creations</b></span></span></div>
+										</div>
+										</div></div>
+								</div>
+								<div id="WEb60912ab6d" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  logoSmall top_plus40" style="z-index:1003">
+									<div class="OESZ OESZ_DivContent OESZG_WEb60912ab6d ">
+										<div class="OECT OECT_Content OECTAbs OEDynTag0">
+										<div id="WEd3830e4b47" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:1001">
+											<div class="OESZ OESZ_DivContent OESZG_WEd3830e4b47 ">
+												<span class="OESZ OESZ_Text OESZG_WEd3830e4b47 ContentBox">SJ Creations</span></div>
+										</div>
+										</div></div>
+								</div>
+								<div id="WEa0646352e2" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAH topMenuSub" style="z-index:1001">
+									<div class="OESZ OESZ_DivContent OESZG_WEa0646352e2 ">
+										<div class="OECT OECT_Content OECTAbs OEDynTag0" style="overflow:visible">
+										<div id="WE766be28938" class="BaseDiv RWidth OEWELink OESK_WELink_Default  topMenuLink" style="z-index:1001" onclick="return OE.Navigate.open(event,'index.htm',1)">
+											<div class="OESZ OESZ_DivContent OESZG_WE766be28938 ">
+												<a class="OESZ OESZ_Link OESZG_WE766be28938 ContentBox" href="index.htm"> Home</a></div>
+										</div>
+										<div id="WE54975c6eb4" class="BaseDiv RWidth OEWELink OESK_WELink_Default  topMenuLink" style="z-index:1002" onclick="return OE.Navigate.open(event,'#a2',1)">
+											<div class="OESZ OESZ_DivContent OESZG_WE54975c6eb4 ">
+												<a class="OESZ OESZ_Link OESZG_WE54975c6eb4 ContentBox" href="#a2"> Women's Store</a></div>
+										</div>
+										<div id="WE4a1bc01c2f" class="BaseDiv RWidth OEWELink OESK_WELink_Default  topMenuLink" style="z-index:1003" onclick="return OE.Navigate.open(event,'#a3',1)">
+											<div class="OESZ OESZ_DivContent OESZG_WE4a1bc01c2f ">
+												<a class="OESZ OESZ_Link OESZG_WE4a1bc01c2f ContentBox" href="#a3"> Men's Store</a></div>
+										</div>
+										<div id="WE538848f149" class="BaseDiv RWidth OEWELink OESK_WELink_Default  topMenuLink" style="z-index:1004" onclick="return OE.Navigate.open(event,'#a4',1)">
+											<div class="OESZ OESZ_DivContent OESZG_WE538848f149 ">
+												<a class="OESZ OESZ_Link OESZG_WE538848f149 ContentBox" href="#a4"> Accessories</a></div>
+										</div>
+										<div id="WE44c54aa64e" class="BaseDiv RWidth OEWELink OESK_WELink_Default  topMenuLink" style="z-index:1005" onclick="return OE.Navigate.open(event,'#a5',1)">
+											<div class="OESZ OESZ_DivContent OESZG_WE44c54aa64e ">
+												<a class="OESZ OESZ_Link OESZG_WE44c54aa64e ContentBox" href="#a5">Jewelry<br /></a></div>
+										</div>
+										<div id="WE708e32f5b1" class="BaseDiv RWidth OEWELink OESK_WELink_Default  topMenuLink" style="z-index:1006" onclick="return OE.Navigate.open(event,'AboutUs.htm',1)">
+											<div class="OESZ OESZ_DivContent OESZG_WE708e32f5b1 ">
+												<a class="OESZ OESZ_Link OESZG_WE708e32f5b1 ContentBox" href="AboutUs.htm"> Contact Us</a></div>
+										</div>
+										</div></div>
+								</div>
+								<div id="WE4194ec7878" class="BaseDiv RBoth OEWELinkImage OESK_WELinkImage_Default OEGo OEGd  miniMenuButton" style="z-index:1002">
+									<div class="OESZ OESZ_DivContent OESZG_WE4194ec7878 ">
+										<img style="width:100%;height:100%;border:none" src="WEFiles/Image/empty.png" /></div>
+								</div>
+								</div></div>
+						</div>
+						<div id="WE3d5630b733" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo OECenterAH btRetract" style="z-index:1002">
+							<div class="OESZ OESZ_DivContent OESZG_WE3d5630b733 ">
+								<a class="OESZ OESZ_Link OESZG_WE3d5630b733 ContentBox"><br /></a></div>
+						</div>
+						</div></div>
+				</div>
+				<div id="WE3b8741bc75" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2003">
+					<div class="OESZ OESZ_DivContent OESZG_WE3b8741bc75 ">
+						<span class="OESZ OESZ_Text OESZG_WE3b8741bc75 ContentBox"><span style="font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(255, 255, 255);"><b>Welcome to</b></span></span></div>
+				</div>
+				<div id="WE022314fa3a" class="BaseDiv RWidth OEWEText OESK_WEText_Default OECenterAH devNotice" style="z-index:1">
+					<div class="OESZ OESZ_DivContent OESZG_WE022314fa3a ">
+						<span class="ContentBox"> <p style="text-align:justify;"><br /></p><p style="text-align:justify;"> </p></span></div>
+				</div>
+				<div id="WE09bf43f6fc" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:2002">
+					<div class="OESZ OESZ_DivContent OESZG_WE09bf43f6fc ">
+						<span class="ContentBox"><span style="font-size:32px;text-decoration:underline;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(255, 255, 255);"><b>Shraddha Jain Creations</b></span></span></div>
+				</div>
+				<div id="WE94b2702715" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2001">
+					<div class="OESZ OESZ_DivContent OESZG_WE94b2702715 ">
+						<span class="OESZ OESZ_Text OESZG_WE94b2702715 ContentBox"><span style="font-size:32px;font-family:Georgia, 'Times New Roman', Times, serif;text-decoration:underline;color:rgb(255, 255, 255);">Adminstrator Page</span><br /></span></div>
+				</div>
+				<div id="WEaffa99ebf2" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2004">
+					<div class="OESZ OESZ_DivContent OESZG_WEaffa99ebf2 ">
+						<span class="OESZ OESZ_Text OESZG_WEaffa99ebf2 ContentBox"><span style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;font-style:italic;color:rgb(255, 255, 255);"><b>Add a New Item</b></span></span></div>
+				</div>
+				<div id="WE54889c67f5" class="BaseDiv RNone OEWEUploadFilesV2 OESK_WEUploadFiles2_Default" style="z-index:2005">
+					<div class="OESZ OESZ_DivContent OESZG_WE54889c67f5 ">
+						<input name="WE54889c67f5" class="OESZ OESZ_InputFile OESZG_WE54889c67f5 " type="file" /></div>
+				</div>
+				<div id="WE49d8d2234e" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2006">
+					<div class="OESZ OESZ_DivContent OESZG_WE49d8d2234e ">
+						<span class="OESZ OESZ_Text OESZG_WE49d8d2234e ContentBox"><span style="font-size:18px;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(255, 255, 255);"><b>Upload the picture:&nbsp;</b></span><br /></span></div>
+				</div>
+				<div id="WE27f78de520" class="BaseDiv RWidth OEWEListBoxV2 OESK_WEListBox2_Default" style="z-index:2008">
+					<div class="OESZ OESZ_DivContent OESZG_WE27f78de520 ">
+						<select name="WE27f78de520" class="OESZ OESZ_ListBox OESZG_WE27f78de520  OEDynTag0">
+						<option value="Women" class="OESZ OESZ_Options OESZG_WE27f78de520 " selected="selected">Women's Store</option>
+						<option value="Mens" class="OESZ OESZ_Options OESZG_WE27f78de520 ">Men's Store</option>
+						<option value="Jewelry" class="OESZ OESZ_Options OESZG_WE27f78de520 ">Jewelry</option>
+						<option value="Accessories" class="OESZ OESZ_Options OESZG_WE27f78de520 ">Accessories</option>
+						</select></div>
+				</div>
+				<div id="WEa03655020e" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2007">
+					<div class="OESZ OESZ_DivContent OESZG_WEa03655020e ">
+						<span class="OESZ OESZ_Text OESZG_WEa03655020e ContentBox"><span style="font-size:18px;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(255, 255, 255);"><b>Select Category:</b></span><br /></span></div>
+				</div>
+				<div id="WE05d30c166b" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2009">
+					<div class="OESZ OESZ_DivContent OESZG_WE05d30c166b ">
+						<span class="OESZ OESZ_Text OESZG_WE05d30c166b ContentBox"><span style="font-size:18px;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(255, 255, 255);"><b>Select Price Range:</b></span><br /></span></div>
+				</div>
+				<div id="WEc72c8ad4a3" class="BaseDiv RWidth OEWEListBoxV2 OESK_WEListBox2_Default" style="z-index:2010">
+					<div class="OESZ OESZ_DivContent OESZG_WEc72c8ad4a3 ">
+						<select name="WEc72c8ad4a3" class="OESZ OESZ_ListBox OESZG_WEc72c8ad4a3  OEDynTag0">
+						<option value="100500" class="OESZ OESZ_Options OESZG_WEc72c8ad4a3 " selected="selected">$100 - $500</option>
+						<option value="5012000" class="OESZ OESZ_Options OESZG_WEc72c8ad4a3 ">$501 - $2000</option>
+						<option value="20015000" class="OESZ OESZ_Options OESZG_WEc72c8ad4a3 ">$2001 - $5000</option>
+						</select></div>
+				</div>
+				<div id="WE24113639fa" class="BaseDiv RWidth OEWETextBoxV2 OESK_WETextBox2_Default" style="z-index:2011">
+					<div class="OESZ OESZ_DivContent OESZG_WE24113639fa ">
+						<input name="WE24113639fa" type="text" class="OESZ OESZ_TextBox OESZG_WE24113639fa  OEDynTag0" /></div>
+				</div>
+				<div id="WE065dc4a759" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:2012">
+					<div class="OESZ OESZ_DivContent OESZG_WE065dc4a759 ">
+						<span class="OESZ OESZ_Text OESZG_WE065dc4a759 ContentBox"><span style="font-size:18px;font-family:Georgia, 'Times New Roman', Times, serif;color:rgb(255, 255, 255);"><b>Enter Retail Price:</b></span><br /></span></div>
+				</div>
+				<div id="WEa1a952818f" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo OECenterAH navigArrow2 naUp" style="z-index:1006">
+					<div class="OESZ OESZ_DivContent OESZG_WEa1a952818f ">
+						<a class="OESZ OESZ_Link OESZG_WEa1a952818f ContentBox"><br /></a></div>
+				</div>
+				<div id="WE068f04de65" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default OECenterAH" style="z-index:1007">
+					<div class="OESZ OESZ_DivContent OESZG_WE068f04de65 ">
+						<span class="OESZ OESZ_Text OESZG_WE068f04de65 ContentBox"><span style="font-weight:normal;">To "activate" displaying of an arrow, use its property "Visible"<br /></span></span></div>
+				</div>
+			</div>
+			<div class="OESZ OESZ_XBodyFooter OESZG_XBody  OECT OECT_Footer OECTAbs">
+				<div id="WE0ab010df47" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default OECenterAH" style="z-index:1001">
+					<div class="OESZ OESZ_DivContent OESZG_WE0ab010df47 ">
+						<div class="OECT OECT_Content OECTAbs OEDynTag0">
+						<div id="WE360f2578e1" class="BaseDiv RWidth OEWELabel OESK_WELabel_Default OECenterAH" style="z-index:1001">
+							<div class="OESZ OESZ_DivContent OESZG_WE360f2578e1 ">
+								<span class="OESZ OESZ_Text OESZG_WE360f2578e1 ContentBox"><br /></span></div>
+						</div>
+						</div></div>
+				</div>
+			</div>
+		</div>
+	</div><script type="text/javascript">
+	$(["WEFiles/Image/Skin/f72ffa6d.png","WEFiles/Image/Skin/0db815a6.png","WEFiles/Image/Skin/962e1fc1.png","WEFiles/Image/Skin/00bff3bd.png","WEFiles/Image/Skin/1ccc25ab.png"]).preloadImg();
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-us">
+	
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>User Loyalty Account Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="../css/UserSignUp.css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/LoginJSValidate.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div id="PageHeading">
+			Shraddha Jain Creations Loyalty Program<br/>
+		</div>
+					
+		<form id="SignUpForm" method="post" action="UserSignUp.php">
+		
+			<div id ="request">
+				All fields are mandatory.
+			</div>
+			<div>
+				<div class="label" id="UsernameLabel">
+					Please Enter Your Name:
+				</div>
+				
+				<div  class = "fields">
+					<input id="Username" name="Username" type="text">  
+				</div>
+			</div>
+			
+			<div>			
+				<div class="label">
+					Please Enter Your Password:
+				</div>
+				
+				<div class = "fields">
+					<input id="Password" name="Password" type="password">  
+				</div>
+			</div>
+			
+			<div>			
+				<div class="label">
+					Please Re-Enter Your Password:
+				</div>
+				
+				<div class = "fields">
+					<input id="RePassword" name="RePassword" type="password">  
+				</div>
+			</div>
+			
+			<div>
+				<div class="label">
+					Please Enter Your Email:
+				</div>
+				
+				<div class = "fields">
+					<input id="Email" name="Email" type="text">  
+				</div>
+			</div>
+			
+			<input type="submit" id="submitSignup" value="SignUp">
+			
+		</form>
+
+	</body>
+	
+</html>
